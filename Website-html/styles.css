@@ -14,6 +14,10 @@ body {
     color: black;
 }
 
+.right-side2 {
+    color: #4CAD49;
+}
+
 .color {
     color: #4CAD49;
 }
@@ -64,7 +68,7 @@ body {
 
 .centered2 {
     position: absolute;
-    top: 15%;
+    top: 50;
     left: 50%;
     transform: translate(-50%, -50%);
 }

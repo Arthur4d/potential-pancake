@@ -3,16 +3,19 @@ body {
     margin: 0px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 /* Nav styles */
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+}
+
+.right-side {
+    color: black;
+}
+
+.color {
+    color: #4CAD49;
 }
 
 .left-side {
@@ -26,7 +29,7 @@ body {
 }
 
 .nav-link-wrapper {
-    height: 22px;
+    height: 16px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s
 }
@@ -56,6 +59,12 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
   }
-  
+
+.centered2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

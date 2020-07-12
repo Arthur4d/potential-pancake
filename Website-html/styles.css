@@ -3,16 +3,15 @@ body {
     margin: 0px;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
 /* Nav styles */
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 25px;
+}
+
+.right-side {
+    color: black;
 }
 
 .left-side {

@@ -98,7 +98,11 @@ body {
 }
 .testblock {
     color: white;
+    font-size: 12pt;
     position: absolute;
-    top: 60%;
-    left: 1%;
+    top: 20%;
+    left: 2%;
+    right: 50%;
 }
+
+/*p.tall {line-height: 0.5%;}

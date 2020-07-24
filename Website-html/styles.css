@@ -22,6 +22,10 @@ body {
     color: #4CAD49;
 }
 
+.color2 {
+    color: white
+}
+
 .left-side {
     display: flex;
 }
@@ -38,7 +42,19 @@ body {
     transition: border-bottom 0.5s
 }
 
+.nav-link-wrapper2 {
+    height: 16px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s
+}
+
 .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper2 a {
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
@@ -48,8 +64,16 @@ body {
     border-bottom: 1px solid black;
 }
 
+.nav-link-wrapper2:hover {
+    border-bottom: 1px solid white;
+}
+
 .nav-link-wrapper a:hover {
     color: black;
+}
+
+.nav-link-wrapper2 a:hover {
+    color: white;
 }
 
 
@@ -68,7 +92,13 @@ body {
 
 .centered2 {
     position: absolute;
-    top: 50;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.testblock {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 1%;
 }

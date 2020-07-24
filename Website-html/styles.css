@@ -96,7 +96,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.aboutblock {
+.aboutblock { /* About Us Text Block*/
     color: white;
     font-size: 12.2pt;
     position: absolute;
@@ -105,4 +105,48 @@ body {
     right: 20%;
 }
 
-/*p.tall {line-height: 0.5%;}
+.map {
+    position: absolute;
+    top: 80pt;
+    left: 50%;
+}
+.hometext { /* Homepage Text Block*/
+    font-size: 13pt;
+    position: absolute;
+    left: 50pt;
+    right: 50pt;
+}
+/* Footer Styles*/
+.footer {
+   position: static;
+   bottom: 0;
+   background-color: #8a8a8a; 
+}
+.footer-left {
+    width: 33%;
+    margin-left: 10pt;
+}
+.footer-right {
+    width:30%;
+    text-align: right;
+}
+.footer-centre {
+    width:33%;
+    text-align: center;
+}
+.footer-left, .footer-centre, .footer-right{
+    display: inline-block;
+	vertical-align: top;
+}
+.footer {
+    color: #ffffff;
+}
+.footer a{
+	display:inline-block;
+	line-height: 1;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-email {
+    /*color: blue;*/
+}

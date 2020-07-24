@@ -55,7 +55,7 @@ body {
 }
 
 .nav-link-wrapper2 a {
-    color: #8a8a8a;
+    color: #c9c9c9;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -98,11 +98,11 @@ body {
 }
 .testblock {
     color: white;
-    font-size: 12pt;
+    font-size: 12.2pt;
     position: absolute;
     top: 20%;
-    left: 2%;
-    right: 50%;
+    left: 20%;
+    right: 20%;
 }
 
 /*p.tall {line-height: 0.5%;}

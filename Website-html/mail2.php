@@ -1,4 +1,4 @@
-Thanks for your message!
+Thanks for your message! mail2
 
 <?php
 	
@@ -16,3 +16,4 @@ Thanks for your message!
 
 	mail($to, $subject, $body);
 ?>
+-->

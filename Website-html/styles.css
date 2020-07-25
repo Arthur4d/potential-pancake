@@ -118,8 +118,12 @@ body {
 }
 /* Footer Styles*/
 .footer {
-   position: static;
+   position: relative;
    bottom: 0;
+   height: 5em;
+   left:0;
+   width: 100%;
+   font-size: small;
    background-color: #8a8a8a; 
 }
 .footer-left {
@@ -150,3 +154,15 @@ body {
 .footer-email {
     /*color: blue;*/
 }
+/*
+@media(max-width:767px){
+    header .burger {
+        display: none;
+    }
+}
+@media(min-width:768px){
+    header .navwrapper {
+        display: none;
+    }
+}
+*/

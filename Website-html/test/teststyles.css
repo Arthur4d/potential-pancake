@@ -123,6 +123,7 @@ body {
 }
 
 footer {
+  position: fixed;
   bottom: 0;
   left:0;
   width: 100%;
@@ -156,10 +157,9 @@ footer {
    display: inline-block;
   vertical-align: top;
 }
-a{
+.footer a{
   display:inline-block;
   line-height: 1;
   text-decoration: none;
-  color:  white;
-}
-
+  color:  inherit;
+}*/

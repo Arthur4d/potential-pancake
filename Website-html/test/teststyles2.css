@@ -1,0 +1,39 @@
+body {
+   background: #ffffff none repeat scroll 0 0;
+   padding:40px 0;
+}
+header{
+ position:fixed;
+ top:0;
+ z-index:999;
+ left:0;
+ width:100%;
+ background:#fff;
+ border-bottom:1px solid #ccc;
+}
+header ul li {
+ display: inline-block;
+ list-style: outside none none;
+ padding: 5px;
+}
+header ul li a {
+   color: #000000;
+   text-decoration: none;
+}
+footer {
+ bottom: 0;
+ left: 0;
+ position: fixed;
+ text-align: center;
+ width: 100%;
+ z-index: -1;
+ background-color: grey;
+}
+footer h1 {
+ margin: 0;
+}
+.wrapper {
+ background: #ffffff;
+ padding: 0 15px;
+ z-index: 1;
+}

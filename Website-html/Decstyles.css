@@ -50,7 +50,7 @@ header ul li a:hover {
    top: 0;
    margin-right: 10px;
    font-size: 18px;
- /*  margin-top: -10px;*/
+   margin-top: -15px;
 }
 
 
@@ -127,19 +127,50 @@ header ul li a:hover {
    transform: translate(-50%, -50%);
    size: 7;
  }
-.aboutblock { /* About Us Text Block*/
-   color: grey;
-   font-size: 12.2pt;
-   position: absolute;
-   top: 20%;
-   left: 20%;
-   right: 20%;
+
+ .GalleryClass {
+    margin-left: 5%;
+    margin-right: 20%;
+ }
+
+.AboutUsClass {
+   text-align: center;
+   font-size: large;
 }
 
-.map {
+.OurStoryClass { /* About Us Text Block*/
+   font-size: 12.2pt;
+   top: 20%;
+   margin-right: 20%;
+   margin-left: 5%;
+}
+
+.ContactClass {
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.mapcontainer {
+   width: 50%;
+   float:right;
+   overflow: hidden;
+   margin-top: -25%;
+   margin-right: 5%;
+   /*
+   position:relative; 
+   width: 50%;
+   height: "450";
+   float: right;
+   margin-right: 5%;*/
+}
+/*.map {
    position: absolute;
-   top: 80pt;
-   left: 50%;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: 0;
+}
+   width="600" height="450" frameborder="0" style="border:0;" ="" aria-hidden="false" tabindex="0"*/
 }
 .hometext { /* Homepage Text Block*/
    font-size: 13pt;
@@ -182,7 +213,7 @@ footer {
    display: inline-block;
   vertical-align: top;
 }
-a{
+footer a{
   display:inline-block;
   line-height: 1;
   text-decoration: none;

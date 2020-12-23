@@ -59,6 +59,7 @@ header ul li a:hover {
    display: flex;
    font-size: 0.9em;
    text-transform: uppercase;
+   vertical-align: middle;
 }
 
 .nav-wrapper > .left-side > div {
@@ -70,14 +71,10 @@ header ul li a:hover {
 .nav-link-wrapper {
    height: 16px;
    border-bottom: 1px solid transparent;
-   transition: border-bottom 0.5s
+   transition: border-bottom 0.5s;
+   vertical-align: middle;
 }
 
-.nav-link-wrapper2 {
-   height: 16px;
-   border-bottom: 1px solid transparent;
-   transition: border-bottom 0.5s
-}
 
 .nav-link-wrapper a {
    color: #8a8a8a;
@@ -85,26 +82,14 @@ header ul li a:hover {
    transition: color 0.5s;
 }
 
-.nav-link-wrapper2 a {
-   color: #c9c9c9;
-   text-decoration: none;
-   transition: color 0.5s;
-}
 
 .nav-link-wrapper:hover {
    border-bottom: 1px solid black;
 }
 
-.nav-link-wrapper2:hover {
-   border-bottom: 1px solid white;
-}
 
 .nav-link-wrapper a:hover {
    color: black;
-}
-
-.nav-link-wrapper2 a:hover {
-   color: white;
 }
 
 .container {
@@ -153,7 +138,7 @@ header ul li a:hover {
    width: 50%;
    float:right;
    overflow: hidden;
-   margin-top: -25%;
+   margin-top: -5%;
    margin-right: 5%;
    /*
    position:relative; 

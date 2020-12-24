@@ -159,6 +159,13 @@ header ul li a:hover {
    margin-left: 5%;
    margin-right: 5%;
 }
+
+.ContactClass a{
+   display:inline-block;
+   line-height: 1;
+   text-decoration: underline;
+   color:  white;
+ }
 .mapcontainer {
    width: 50%;
    float:right;

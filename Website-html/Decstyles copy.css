@@ -1,12 +1,19 @@
-@import "compass/css3";
 
-/* Master styles */
+
+/* Master styles 
 body {
    margin: 0;
    padding: 0;
    height: 100%;
    background: #ffffff none repeat scroll 0 0;
-} 
+} */
+body {
+   background-image: url('https://github.com/Arthur4d/potential-pancake/blob/master/Website-html/Images/maindrone.jpg?raw=true');
+   background-size: 150%;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+ }
 header{
  position:fixed;
  top:0;
@@ -22,7 +29,6 @@ header{
  padding: 5px;
  height: 16px;
  border-bottom: 1px solid transparent;
-
 }
 header ul li:hover {
    color: black;
@@ -157,7 +163,7 @@ header ul li a:hover {
    width: 50%;
    float:right;
    overflow: hidden;
-   margin-top: -20%;
+   margin-top: -23%;
    margin-right: 5%;
    /*
    position:relative; 
@@ -241,3 +247,10 @@ footer a{
    height: 16rem;
    object-fit: cover; 
  }
+
+ .backgroundbox {
+   margin-left: 5%;
+   margin-right: 5%;
+      background-color: rgb(36, 22, 22);
+      color: white;
+    }

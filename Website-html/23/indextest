@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<nav>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Heartenoak Vineyard</title>
+    <meta name="description" content="Welcome to Heartenoak Vineyard, a family-run vineyard in Kent, England.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</nav>
+
+<body>
+    <header>
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                <a href="#Main">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                <a href="#About">About Us</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                <a href="#Gallery">Gallery</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                <a href="#OurStory">Our Story</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                <a href="#Contact">Contact Us</a>
+                </div>
+
+<!--                <div class="nav-link-wrapper">
+                <a href="#News">News</a>
+                </div> -->
+                <!--<li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="news.html">News</a></li>-->
+            </div>
+            
+            <div class="right-side">
+             Heartenoak Vineyard  <br>
+            </div>
+        </div>
+    </header>
+
+        <section id="Main", class="MainClass">
+            <div class="container">
+                <img src="Images/maindrone.jpg" style="width:100%;" >
+                <div class="hometitle"><size="7"><h1> WELCOME TO HEARTENOAK VINEYARD</h1>  
+                   <!-- <div class="footer-icons">   <a href="https://www.instagram.com/heartenoakvineyard/"><i class="fa fa-instagram" style="font-size:40px; color: white;" ></i></i></a>-->
+                   <div class="footer-icons">   <a href="https://www.instagram.com/heartenoakvineyard/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" style="width:5%;"></a>  
+             </div></size></div>
+             </div>
+        </section>
+        <div class="backgroundbox">
+        <section id="About", class="AboutUsClass">
+        <p>We are a newly-planted, purely family-run Vineyard, found in Kent in the South-East of England.</p> 
+        </section>
+        <section id=Gallery>
+        <div class="container2">
+          <div class="img-holder"><img src="Images/plantedvines.jpg" alt=""></div>
+          <div class="img-holder"><img src="Images/firstvine.jpg" alt=""></div>
+          <div class="img-holder"><img src="Images/plantingtractor.JPG" alt=""></div>
+          <div class="img-holder"><img src="Images/sunsetdog.JPG" alt=""></div>
+          <div class="img-holder"><img src="Images/sunsetpic.JPG"></div>
+          <div class="img-holder"><img src="Images/Planting.jpeg" alt=""></div>
+          <div class="img-holder"><img src="Images/mumguards.JPG" alt=""></div>
+          <div class="img-holder"><img src="Images/doingTubes.jpeg" alt=""></div>
+          <div class="img-holder"><img src="Images/firstSnow.jpeg"></div>
+          <div class="img-holder"><img src="Images/MetalUp.jpeg" alt=""></div>
+          <div class="img-holder"><img src="Images/Sky.jpeg" alt=""></div>
+
+        </div>
+
+
+                             <div class="embedsocial-hashtag" data-ref="45fae5d2398b95d44a5ed1d5e50e80446b53ec2a"> <a class="feed-powered-by-es feed-powered-by-es-feed-new" href=https://embedsocial.com/social-media-aggregator/ target="_blank" title="Widget by EmbedSocial"> Widget by EmbedSocial<span>→</span> </a> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = https://embedsocial.com/cdn/ht.js; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+
+                            
+
+                             <div class="image-gallery">
+
+                                           <img src=https://via.placeholder.com/300x200.png?text=Image+1 alt="Image 1">
+
+                                           <img src=https://via.placeholder.com/300x200.png?text=Image+2 alt="Image 2">
+
+                                           <img src=https://via.placeholder.com/300x200.png?text=Image+3 alt="Image 3">
+
+                                           <img src=https://via.placeholder.com/300x200.png?text=Image+4 alt="Image 4">
+
+                                           <img src=https://via.placeholder.com/300x200.png?text=Image+5 alt="Image 5">
+
+                                           <img src=https://via.placeholder.com/300x200.png?text=Image+6 alt="Image 6">
+
+                             </div>
+
+              </div>
+
+        </section>
+    
+<!---       <section id="Diary", class="DiaryClass"> 
+            <h2>Diary</h2>
+        </section> -->
+        <section id="OurStory", class="OurStoryClass">
+             <h1>
+                Our Story
+            </h1>
+            <div class="StoryPara">
+            <p>When we first looked at buying the farm in 2002 we were initially put off by the complete disrepair of the farmhouse. A walk around the fields however made us realise that the work required would be worth it. I said at the time that one day this would be a vineyard. It has taken more than 17 years, but finally the dream has come true. 
+               </p><p>
+                I stopped working in the City two years ago and much of the time since than has been taken up by preparing the land for the vines. We had to add 40 tonnes of lime to balance the acidity caused by the many years of sheep grazing that had previously taken place on the land. Drainage was then installed in the fields, we were told that this had previously been performed by Napoleonic prisoners of war and certainly many old clay pipes were discovered in the process. 
+                </p>
+                Anyway, after these and other various land preparations we were finally ready to have the vines planted. The German team arrived a day earlier than we were originally advised and when they got planting you could understand why. 7am starts and 8:30 pm finishes meant that our 15,000 vines were just a day’s work. 
+                </p><p>   
+                We then had the task of installing all the stakes and vine-guards. We were told we had 2 weeks to complete this before the vines would start sprouting and become attractive to our large rabbit population. I envisaged long days for Sue and I but I sent a hopeful note around to our neighbours on Heartenoak Road asking for the odd hour’s work. They amazed us. For three or four days they started arriving from early morning and worked throughout the day. The guards were almost being installed as quickly as the vines were being planted. The vines were planted in rows over 2 metres apart so social distancing was easy to maintain but this still gave people the opportunity to chat in the sunshine whilst they worked. The turnout of all ages was incredible and the comment when the last vine was safely protected was “what can we do next?”. Thanks to the kindness of the Fitz team we were able to reward them with some excellent bottles of bubbly that went down very well. 
+                </p><p>
+                We are delighted to be working with the Fitz team, it feels rebellious to be bucking the trend and planting something different to most others. As well as the Reichensteiner and Seyval Blanc we have also planted vines for still wines, Bacchus and Pinot Blanc for white, and Cabernet Noir to give us the potential for a full-bodied red in an above average temperature year or rosé otherwise.
+            </p>
+            </div>
+        </section>
+        <section id="Contact" class="ContactClass">
+            <h1>Contact Us</h1>
+            <p> Have a question?<br>
+            <a href="mailto:contact@heartenoakvineyard.co.uk?subject=Heartenoak%20Vineyard%20Enquiry">Send Us An Email!</a></p>
+            <div class="footer-icons"><p> Check out our Instagram @heartenoakvineyard   <a href="https://www.instagram.com/heartenoakvineyard/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" style="width:3%;"></a> </div></p>
+            <h4>Find Us:</h4>
+            <p><b>Heartenoak Vineyard</b><br><i>At</i> Beals Green Farm,<br>Heartenoak Road,<br>Hawkhurst,<br>Kent<br>TN18 5EU</p>
+                <div class="mapcontainer"><!--style="position:relative; top: 10px; left: 150px;" -->
+                 <iframe 
+                 style="position: relative;"
+                 width=100% 
+                 height="300" 
+                 frameborder="0" 
+                 scrolling="no" 
+                 marginheight="0" 
+                 marginwidth="0"
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5015.434595074907!2d0.5073071470520365!3d51.05830761125457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df3c55e0352fa5%3A0x6f989038e94e0bdd!2sHawkhurst%2C%20Cranbrook%20TN18%205EU!5e0!3m2!1sen!2suk!4v1594566298040!5m2!1sen!2suk"></iframe>
+                </div> 
+                <br><br><br><br>
+        </section>
+    </div>
+  </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+
+        <footer>
+            <div class="footer-left">
+                <p><b>Heartenoak Vineyard</b></p>
+                <p>
+                    <a href="#Main">Home</a>
+                    |
+                    <a href="#About">About</a>
+                    |
+                    <a href="#Gallery">Gallery</a>
+                    |
+                    <a href="#Contact">Contact</a>
+                </p>
+                </div>
+        
+            <div class="footer-centre">
+                <div>
+                    <div class="footer-address">
+                      <p><span>Heartenoak Road, Hawkhurst</span>
+                        Kent, TN18 5EU</p>
+                    </div>
+                </div>
+        
+                <div>
+                    <div class="footer-email">
+                        <p><a href="mailto:contact@heartenoakvineyard.co.uk"> <i class="fa fa-envelope"></i> contact@heartenoakvineyard.co.uk </a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Links</span>
+                </p>
+                <div class="footer-icons">
+                    <a href="https://www.instagram.com/heartenoakvineyard/"><i class="fa fa-instagram" style="font-size:30px;" ></i></i></a>
+                </div>
+            </div>
+        </footer>
+
+</html>

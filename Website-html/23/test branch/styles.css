@@ -8,12 +8,12 @@ body {
    background: #ffffff none repeat scroll 0 0;
 } */
 body {
-   background-image: url('https://github.com/Arthur4d/potential-pancake/blob/master/Website-html/Images/maindrone.jpg?raw=true');
-   background-size: 150%;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center;
- }
+   /*   background-image: url('https://github.com/Arthur4d/potential-pancake/blob/master/Website-html/Images/maindrone.jpg?raw=true');
+   */  background-size: 150%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+   }
 header{
  position:fixed;
  top:0;

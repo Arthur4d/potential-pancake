@@ -1,5 +1,4 @@
 
-
 /* Master styles 
 body {
    margin: 0;
@@ -238,7 +237,8 @@ footer a{
 
 
 .container2 {
-   max-width: 1024px;
+   max-width: 100%;
+   height:auto;
    margin: 0 auto;
    display: flex;
    flex-wrap: wrap;

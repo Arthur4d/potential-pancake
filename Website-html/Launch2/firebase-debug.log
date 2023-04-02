@@ -1,0 +1,94 @@
+[debug] [2023-04-02T18:03:06.593Z] ----------------------------------------------------------------------
+[debug] [2023-04-02T18:03:06.596Z] Command:       /usr/local/bin/firebase /Users/annabelford/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting
+[debug] [2023-04-02T18:03:06.597Z] CLI Version:   9.1.0
+[debug] [2023-04-02T18:03:06.597Z] Platform:      darwin
+[debug] [2023-04-02T18:03:06.597Z] Node Version:  v12.18.1
+[debug] [2023-04-02T18:03:06.598Z] Time:          Sun Apr 02 2023 19:03:06 GMT+0100 (British Summer Time)
+[debug] [2023-04-02T18:03:06.599Z] ----------------------------------------------------------------------
+[debug] [2023-04-02T18:03:06.599Z] 
+[debug] [2023-04-02T18:03:06.605Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-02T18:03:06.606Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/annabelford/iCloud Drive/Documents/GitHub/potential-pancake/potential-pancake/Website-html/Launch2
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-04-02T18:04:00.998Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"heartenoakvineyardtest","name":"heartenoakvineyardtest"}
+[debug] [2023-04-02T18:04:01.880Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 02 Apr 2023 18:04:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=686","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-04-02T18:04:01.882Z] > refreshing access token with scopes: []
+[debug] [2023-04-02T18:04:01.882Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-04-02T18:04:02.008Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 02 Apr 2023 18:04:05 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-04-02T18:04:02.028Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 [none]
+[debug] [2023-04-02T18:04:02.909Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 200
+[debug] [2023-04-02T18:04:02.909Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 {"name":"operations/cp.5922693943314696114"}
+[debug] [2023-04-02T18:04:03.411Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-04-02T18:04:03.411Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 [none]
+[debug] [2023-04-02T18:04:04.195Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 200
+[debug] [2023-04-02T18:04:04.195Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 {"name":"operations/cp.5922693943314696114","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2023-04-02T18:04:05.197Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-04-02T18:04:05.197Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 [none]
+[debug] [2023-04-02T18:04:06.184Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 200
+[debug] [2023-04-02T18:04:06.184Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.5922693943314696114 {"name":"operations/cp.5922693943314696114","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"115133080514","projectId":"heartenoakvineyardtest","lifecycleState":"ACTIVE","name":"heartenoakvineyardtest","createTime":"2023-04-02T18:04:07.493Z"}}
+[debug] [2023-04-02T18:04:06.186Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2023-04-02T18:04:06.187Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-04-02T18:04:06.304Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 02 Apr 2023 18:04:10 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-04-02T18:04:06.328Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/heartenoakvineyardtest:addFirebase  
+ 
+[debug] [2023-04-02T18:04:09.747Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 02 Apr 2023 18:04:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-04-02T18:04:09.748Z] > refreshing access token with scopes: []
+[debug] [2023-04-02T18:04:09.749Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2023-04-02T18:04:09.867Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 02 Apr 2023 18:04:13 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2023-04-02T18:04:09.900Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 [none]
+[debug] [2023-04-02T18:04:10.698Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 200
+[debug] [2023-04-02T18:04:10.698Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 {"name":"operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0"}
+[debug] [2023-04-02T18:04:11.199Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-04-02T18:04:11.201Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 [none]
+[debug] [2023-04-02T18:04:11.798Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 200
+[debug] [2023-04-02T18:04:11.798Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 {"name":"operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0"}
+[debug] [2023-04-02T18:04:12.799Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-04-02T18:04:12.799Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 [none]
+[debug] [2023-04-02T18:04:13.211Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 200
+[debug] [2023-04-02T18:04:13.211Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 {"name":"operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0"}
+[debug] [2023-04-02T18:04:15.215Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-04-02T18:04:15.215Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 [none]
+[debug] [2023-04-02T18:04:15.805Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 200
+[debug] [2023-04-02T18:04:15.805Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 {"name":"operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0"}
+[debug] [2023-04-02T18:04:19.805Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2023-04-02T18:04:19.806Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 [none]
+[debug] [2023-04-02T18:04:20.256Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 200
+[debug] [2023-04-02T18:04:20.257Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0 {"name":"operations/workflows/ZWUxZjA0ZTQtZDM1YS00ZmVhLWFjNDktMzRkOTg2ZmI1Y2U0","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"heartenoakvineyardtest","projectNumber":"115133080514","displayName":"heartenoakvineyardtest","name":"projects/heartenoakvineyardtest","resources":{"hostingSite":"heartenoakvineyardtest"}}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase project is ready! 🎉🎉🎉
+[info] 
+[info] Project information:
+[info]    - Project ID: heartenoakvineyardtest
+[info]    - Project Name: heartenoakvineyardtest
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/heartenoakvineyardtest/overview
+[info] i  Using project heartenoakvineyardtest (heartenoakvineyardtest) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

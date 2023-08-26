@@ -9,3 +9,9 @@
 # or from preview channel:  firebase hosting:clone SOURCE_SITE_ID:SOURCE_CHANNEL_ID TARGET_SITE_ID:live
 
 #or deploy with comment: firebase deploy --only hosting -m "Deploying the best new feature ever."
+
+
+#Bug Fixing:
+#Channel deploy often first time comes back with the default page not the website in the deployed channel. 
+#Had to mode the Images folder, index and css files into the newly created 'public' folder and it then worked
+#

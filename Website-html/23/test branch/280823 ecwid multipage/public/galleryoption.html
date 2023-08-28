@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heartenoak Vineyard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<script src="https://kit.fontawesome.com/7fecc4795b.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<style>
+    body {    font-family: 'Montserrat', serif;  }
+  </style> 
+ <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge">  from codepen, not sure if needed--> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+</head>
+
+  <!--<style>  @font-face { font-family: Athelas; font-weight: regular; src: url('Athelas-Regular.ttf')} -->
+  </style>
+  </head>
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5ZHK07GVJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-G5ZHK07GVJ');
+  </script>
+  <body>
+  
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide  w3-card"> <!-- w3-padding w3-bar-item -->
+  
+      <a class=" w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <!--<img class="w3-image" src="Images/Heartenoak_H_logo_BLACK.png" width="50" height="50"> -->
+      <div class="w3-left">
+        <a href="index.html" class=" w3-button w3-valign"><img src="Images/Heartenoak_H_logo_PURPLE.png" style="width:auto;height:40px;"></a>
+      <!-- <a href="#home" class="w3-bar-item w3-button"><b>Home</b> </a> -->
+      <!-- Float links to the right. Hide them on small screens w3-hide-small -->
+      <a href="shop.html" class=" w3-button w3-hide-small">Shop</a>
+      <a href="#gallery" class=" w3-button w3-hide-small">Gallery</a>
+        <a href="index.html#about" class=" w3-button w3-hide-small">About</a>
+        <a href="index.html#contact" class=" w3-button w3-hide-small">Contact Us</a>
+      </div>
+        <div class="w3-right">
+        <div class="ec-cart-widget w3-bar-item w3-button w3-hide-small" ></div> 
+        <div>
+        <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90143776&data_platform=code&data_date=2023-07-29" charset="utf-8"></script>
+        <script type="text/javascript">Ecwid.init();</script>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Our Story</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+  </div>
+
+<body>
+
+<div class="container gallery-container">
+
+    <h1>Gallery</h1>
+
+    <p class="page-description text-center">Images from our journey</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="Images/sunsetdog.JPG">
+                    <img src="Images/autumn.png" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+</html>

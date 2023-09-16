@@ -19,4 +19,4 @@
 #Also seem to get another issue, seems to fix it by changing folder names to have no blanks and from using the terminal from 
 #within VSCode not the normal terminal? Also deleted and reinit'd firebase but don't think that did it. Not sure really
 #
-#
+#firebase use heartenoak-vineyard to switch the project

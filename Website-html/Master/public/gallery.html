@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Heartenoak Vineyard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<script src="https://kit.fontawesome.com/7fecc4795b.js" crossorigin="anonymous"></script>
+<style>
+  body {    font-family: 'Montserrat', serif;  }
+</style> 
+<!--<style>  @font-face { font-family: Athelas; font-weight: regular; src: url('Athelas-Regular.ttf')} -->
+</style>
+</head>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G5ZHK07GVJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G5ZHK07GVJ');
+</script>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide  w3-card"> <!-- w3-padding w3-bar-item -->
+
+    <a class=" w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <!--<img class="w3-image" src="Images/Heartenoak_H_logo_BLACK.png" width="50" height="50"> -->
+    <div class="w3-left">
+      <a href="index.html" class=" w3-button w3-valign"><img src="Images/Heartenoak_H_logo_PURPLE.png" style="width:auto;height:40px;"></a>
+    <!-- <a href="#home" class="w3-bar-item w3-button"><b>Home</b> </a> -->
+    <!-- Float links to the right. Hide them on small screens w3-hide-small -->
+    <a href="shop.html" class=" w3-button w3-hide-small">Shop</a>
+    <a href="gallery.html" class=" w3-button w3-hide-small">Gallery</a>
+      <a href="story.html" class=" w3-button w3-hide-small">Our Story</a>
+      <a href="index.html#contact" class=" w3-button w3-hide-small">Contact Us</a>
+    </div>
+      <div class="w3-right">
+      <div class="ec-cart-widget w3-bar-item w3-button w3-hide-small" ></div> <!--data-fixed-position="TOP_RIGHT"-->
+      <div>
+      <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90143776&data_platform=code&data_date=2023-07-29" charset="utf-8"></script>
+      <script type="text/javascript">Ecwid.init();</script>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="shop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
+  <a href="story.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Our Story</a>
+  <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+  <div class="ec-cart-widget w3-bar-item w3-button w3-padding-large" onclick="myFunction()">
+  <div>
+  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90143776&data_platform=code&data_date=2023-08-28" charset="utf-8"></script>
+  <script type="text/javascript">Ecwid.init();</script>
+  </div></div>
+
+</div>
+
+<style>
+/* .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1} */
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" >
+    <div class="container gallery-container">
+
+        <h1>Gallery</h1>
+    
+        <p class="page-description text-center">Images from our journey</p>
+        
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-row-padding ">
+    <div class="w3-third">
+      <img src="Images/greengrapes.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/redsky.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/rainbow.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/autumn2.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/rustysky.JPG" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/doingTubes.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/firstSnow.jpeg" style="width:100%" onclick="onClick(this)" alt="">   
+      <img src="Images/frost.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/greysky.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/maindrone.jpg" style="width:100%" onclick="onClick(this)" alt="">
+    </div>
+
+    <div class="w3-third">
+      <img src="Images/tractorthroughvines.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/withgrape.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/sunsetdog.JPG" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/tractor.jpg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/snow.png" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/plantingtractor.JPG" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/rustygrey.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/seyval.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/sunsetpic.JPG" style="width:100%" onclick="onClick(this)" alt="">
+    </div>
+    
+    <div class="w3-third">
+      <img src="Images/netted.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/greenwithsun.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/grown.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/seyvalsun.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/Sky.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/autumn.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/maindrone2.png" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/MetalUp.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/newmain.png" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/Planting.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+      <img src="Images/Planting2.jpeg" style="width:100%" onclick="onClick(this)" alt="">
+    </div>
+  </div>
+
+  <!-- Pagination 
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>-->
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+<!-- End page content -->
+</div>
+
+</body>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <div class="footer-left">
+      <p><b>Heartenoak Vineyard</b></p>
+      <p>
+          <a href="index.html">Home</a>
+          |
+          <a href="shop.html">Shop</a>
+          |
+          <a href="story.html">Our Story</a>
+          |
+          <a href="gallery.html">Gallery</a>
+          |
+          <a href="index.html#Contact">Contact</a>
+        </p>
+      </div>
+      <div>
+          <div class="footer-address">
+            <p><span>Heartenoak Road, Hawkhurst</span>
+              Kent, TN18 5EU</p>
+          </div>
+      </div>
+          <div class="footer-email">
+              <p><a href="mailto:contact@heartenoakvineyard.co.uk"> <i class="fa fa-envelope"></i> contact@heartenoakvineyard.co.uk </a></p>
+          </div>
+          <div class="footer-phone">
+            <p><a href="tel:+447504696065"><i class="fa-solid fa-phone"></i>07504 696065</a> </p>
+          </div>
+      <div class="footer-icons">
+          <a href="https://www.instagram.com/heartenoakvineyard/"><i class="fa fa-instagram" style="font-size:30px;" ></i></i></a>        
+      </div>
+</footer>
+
+
+<script>// Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+<script>
+
+
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    
+    </script>
+    
+    
+</html>

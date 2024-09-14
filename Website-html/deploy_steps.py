@@ -20,3 +20,10 @@
 #within VSCode not the normal terminal? Also deleted and reinit'd firebase but don't think that did it. Not sure really
 #
 #firebase use heartenoak-vineyard to switch the project
+
+
+If error on selecting project after init hosting:
+FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+
+
+Then run "firebase login --reauth"

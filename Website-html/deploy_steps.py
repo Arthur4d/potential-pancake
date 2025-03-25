@@ -10,11 +10,16 @@
 
 #or deploy with comment: firebase deploy --only hosting -m "Deploying the best new feature ever."
 
+#use the folder above the public one to start terminal folder (currently 160225 on /Users/annabelford/Library/Mobile Documents/com~apple~CloudDocs/Documents/GitHub/potential-pancake/Website-html/Master)
+
+
 
 #Bug Fixing:
 #Channel deploy often first time comes back with the default page not the website in the deployed channel. 
-#Had to mode the Images folder, index and css files into the newly created 'public' folder and it then worked
-#
+#Had to move the Images folder, index and css files into the newly created 'public' folder and it then worked
+#Another time had to stop the overwrite of the index file with the default firebase optino - reverted changes on VS code and redeplpoyed folder 
+
+
 
 #Also seem to get another issue, seems to fix it by changing folder names to have no blanks and from using the terminal from 
 #within VSCode not the normal terminal? Also deleted and reinit'd firebase but don't think that did it. Not sure really

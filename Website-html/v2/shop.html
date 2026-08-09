@@ -9,9 +9,32 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
 <script src="https://kit.fontawesome.com/7fecc4795b.js" crossorigin="anonymous"></script>
 <style>
-  body {    font-family: 'Montserrat', serif;  }
-</style> 
+body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('Images/sunthrough.JPG');
+  min-height: 100%;
+}
+
+/* Second image  */
+.bgimg-2 {
+  background-image: url("Images/charcuterieboardhortizontal.jpeg");
+  min-height: 400px;
+}
+</style> 
 
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5ZHK07GVJ"></script>
@@ -26,17 +49,18 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide  w3-card"> <!-- w3-padding w3-bar-item -->
-
-    <a class=" w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class=" w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <!--<img class="w3-image" src="Images/Heartenoak_H_logo_BLACK.png" width="50" height="50"> -->
     <div class="w3-left">
       <a href="index.html" class=" w3-button w3-valign"><img src="Images/Heartenoak_H_logo_PURPLE.png" style="width:auto;height:40px;"></a>
     <!-- <a href="#home" class="w3-bar-item w3-button"><b>Home</b> </a> -->
     <!-- Float links to the right. Hide them on small screens w3-hide-small -->
+    <a href="vineyard.html" class=" w3-button w3-hide-small">Vineyard</a>
+    <a href="winery.html" class=" w3-button w3-hide-small">Winery</a>
     <a href="shop.html" class=" w3-button w3-hide-small">Shop</a>
-    <a href="gallery.html" class=" w3-button w3-hide-small">Gallery</a>
-      <a href="story.html" class=" w3-button w3-hide-small">Our Story</a>
-      <a href="index.html#contact" class=" w3-button w3-hide-small">Contact Us</a>
+    <a href="tourstastings.html" class=" w3-button w3-hide-small">Tours & Tastings</a>
+    <a href="kentishwineway.html" class=" w3-button w3-hide-small">Kentish Wine Way</a>    
+    <a href="index.html#contact" class=" w3-button w3-hide-small">Contact Us</a>
     </div>
       <div class="w3-right">
       <div class="ec-cart-widget w3-bar-item w3-button w3-hide-small" ></div> <!--data-fixed-position="TOP_RIGHT"-->
@@ -49,16 +73,18 @@
 </div>
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-light-grey w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="vineyard.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Vineyard</a>
+  <a href="winery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Winery</a>
   <a href="shop.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
-  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Gallery</a>
-  <a href="story.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Our Story</a>
+  <a href="tourstastings.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tours & Tastings</a>
+  <a href="kentishwineway.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Kentish Wine Way</a>
   <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
   <div class="ec-cart-widget w3-bar-item w3-button w3-padding-large" onclick="myFunction()">
-  <div>
-  <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90143776&data_platform=code&data_date=2023-08-28" charset="utf-8"></script>
-  <script type="text/javascript">Ecwid.init();</script>
-  </div></div>
-
+    <div>
+    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90143776&data_platform=code&data_date=2023-08-28" charset="utf-8"></script>
+    <script type="text/javascript">Ecwid.init();</script>
+    </div>
+   </div>
 </div>
 </head>
 <!--
@@ -72,20 +98,26 @@
 </div>-->
 <body>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="header">
-  <img class="trimmed-cover" src="Images/sunthrough.JPG" alt="Photo" height="300px">
+<!-- Header 
+<header class="w3-display-container w3-content w3-wide" style="max-width:2000px;" id="header">
+  <img class="trimmed-cover" src="Images/sunthrough.JPG" alt="Photo" height="500px">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 style="font-size:3vw; font-family: 'Athelas';" class="w3-text-title-shop"><b>Our limited edition wines</b></h1><br> 
   </div>
-</header>
+</header>-->
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Our Limited Edition Wines </span>
+  </div>
+</div>
 
 
 
-
-<p class="w3-center w3-large"> Vineyard and winery tours and tastings of all our wines are also available at £25 per person on Fridays and Saturdays year-round - including potential tank and barrel tastings during the winter months. <br>
-  For tours on other days of the week, or discounts for groups of 6 or more, please get in touch directly. <br>
-  Get in touch at contact@heartenoakvineyard.co.uk and we can arrange your visit! 
+<p class="w3-center w3-large"> We produce small batch wines, handmade on site in our family winery<br>
+  Wines are available for delivery or at our cellar door
+ <!--  For tours on other days of the week, or discounts for groups of 6 or more, please get in touch directly. <br> -->
 </p>
 <!-- <a href="mailto:contact@heartenoakvineyard.co.uk?subject=Heartenoak%20Vineyard%20Enquiry">contact@heartenoakvineyard.co.uk</a></p> -->
 
@@ -93,48 +125,53 @@
 <div>
 <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?90143776&data_platform=code&data_date=2023-07-29" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-90143776");</script>
 </div>
+
+<p class="w3-center w3-large"> 
+  <em> If there are no bottles listed get in touch at contact@heartenoakvineyard.co.uk and we can see if we have any limited stock available! </em>
+</p>
+
+<!--
+<div class="w3-content w3-container w3-padding-16" id="">
+  <h3 class="w3-center">Images</h3>
+   Responsive Grid. Three columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) 
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m4">
+      <img src="Images/pinotblanccrate.JPG" style="width:100%; height: auto; max-height: 500px ;" onclick="onClick(this)" class="w3-hover-opacity" alt="Tasting Room Exterior">
+    </div>
+    <div class="w3-col m4">
+      <img src="Images/tastingxmas.JPG" style="max-width: 100%; width: auto; height: auto; max-height: 400px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Tastings Around Christmas">
+    </div>
+    <div class="w3-col m4">
+      <img src="Images/tastingexperience.jpeg" style="width:100%; height: auto; max-height: 500px;" onclick="onClick(this)" class="w3-hover-opacity" alt="Tasting Experience">
+    </div>
+  </div>
+</div>-->
+
 </body>
+
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <div class="footer-left">
-      <p><b>Heartenoak Vineyard</b></p>
+      <p><b><img src="Images/Heartenoak_logo_WHITE.png" style="width:auto;height:40px;"> </b></p>
       <p>
           <a href="index.html">Home</a>
           |
+          <a href="vineyard.html">Vineyard</a>
+          |
+          <a href="winery.html">Winery</a>
+          |
           <a href="shop.html">Shop</a>
           |
-          <a href="story.html">Our Story</a>
+          <a href="tourstastings.html">Tours & Tastings</a>
           |
-          <a href="gallery.html">Gallery</a>
-          |
-          <a href="index.html#Contact">Contact</a>
+          <a href="kentishwineway.html">Kentish Wine Way</a>
       </p>
-      </div>
-
-  <div class="footer-centre">
-      <div>
-          <div class="footer-address">
             <p><span>Heartenoak Road, Hawkhurst</span>
               Kent, TN18 5EU</p>
-          </div>
-      </div>
-
-      <div>
-          <div class="footer-email">
               <p><a href="mailto:contact@heartenoakvineyard.co.uk"> <i class="fa fa-envelope"></i> contact@heartenoakvineyard.co.uk </a></p>
-          </div>
-      </div>
-  </div>
-  <div class="footer-right">
-      <p class="footer-company-about">
-          <span>Links</span>
-      </p>
-      <div class="footer-icons">
-          <a href="https://www.instagram.com/heartenoakvineyard/"><i class="fa fa-instagram" style="font-size:30px;" ></i></i></a>        </div>
-  </div>
+      <a href="https://www.instagram.com/heartenoakvineyard/"><i class="fa fa-instagram" style="font-size:30px;" ></i></a>  
+      <a><img src="Images/kww-campaign-badge-white.svg" style="width:auto;height:30px;"></a> 
 </footer>
-
 
 <script>// Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {

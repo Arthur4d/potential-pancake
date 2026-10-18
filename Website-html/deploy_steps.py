@@ -1,5 +1,5 @@
 #Deployment steps
-# Open finder, go to /Users/annabelford/Documents/GitHub/potential-pancake/potential-pancake/Website-html/Launched
+# Open finder, go to /Users/annabelford/Documents/GitHub/potential-pancake/potential-pancake/Website-html/Launched (or Master or similar)
 # and right click, new terminal tab at folder. 
 # In terminal; firebase init hosting
 #  firebase hosting:channel:deploy preview_030421 (can change 'preview_030421' to anything you want) 
@@ -27,8 +27,16 @@
 #firebase use heartenoak-vineyard to switch the project
 
 
+#09/08/26 had to run firebase logout and firebase login to get it working again, had been getting errors on failed to get firebase project heartenoak-vineyard
+
+
 If error on selecting project after init hosting:
 FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
 
 
 Then run "firebase login --reauth"
+
+
+
+run command: 
+firebase deploy --only hosting -m "Updating to have new Vineyard and Winery sections"
